@@ -566,6 +566,29 @@ h1, h2, h3 {
   margin-top: 2.4rem;
 }
 
+.footer__aviso {
+  max-width: 36rem;
+  margin: 2.4rem auto 0;
+  padding-top: 1.6rem;
+  border-top: 1px solid var(--linha);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  letter-spacing: 0.12rem;
+  text-transform: uppercase;
+  color: var(--texto-fraco);
+}
+
+.footer__aviso span {
+  color: var(--ambar);
+}
+
+/* espaço para o botão flutuante não cobrir o aviso no celular */
+@media (max-width: 767px) {
+  .footer {
+    padding-bottom: 10rem;
+  }
+}
+
 /* ===== WHATSAPP FLUTUANTE ===== */
 .whatsapp-flutuante {
   position: fixed;
